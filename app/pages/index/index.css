@@ -1,0 +1,33 @@
+.vertical-divider{
+    border-left: 2px solid rgb(66, 66, 66);
+    height: 70vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2vw 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    text-align:center;
+    margin-top: 20vh;
+}
+
+.container-power{
+    grid-column: 1 / 2;
+}
+
+.footer{
+    margin-top: 5vh;
+}
+
+@media only screen and (max-width: 1500px) {
+    .grid-container{
+        grid-template-columns:  1fr;
+        grid-template-rows: 1fr 1fr 10vh;
+        text-align: left;
+    }
+
+    .vertical-divider{
+        display: none;
+    }
+  }

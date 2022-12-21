@@ -1,0 +1,9 @@
+.grid-container{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+}
+.heading {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+}
